@@ -1,4 +1,3 @@
-import React from 'react';
 import './CartPage.scss';
 import { useSelector, useDispatch } from 'react-redux';
 import { shopping_cart } from '../../Utils/images';

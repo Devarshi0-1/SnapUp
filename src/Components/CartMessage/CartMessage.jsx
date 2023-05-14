@@ -1,4 +1,3 @@
-import React from 'react';
 import './CartMessage.scss';
 import { correct } from '../../Utils/images';
 

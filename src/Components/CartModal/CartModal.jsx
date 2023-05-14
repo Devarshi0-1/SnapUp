@@ -1,4 +1,3 @@
-import React from 'react';
 import './CartModal.scss';
 import { shopping_cart } from '../../Utils/images';
 import { formatPrice } from '../../Utils/helpers';

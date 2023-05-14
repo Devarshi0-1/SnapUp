@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { formatPrice } from '../../Utils/helpers';
 import './Product.scss';

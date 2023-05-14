@@ -1,4 +1,3 @@
-import React from 'react';
 import './HeaderSlider.scss';
 import { sliderImgs } from '../../Utils/images';
 import Slider from 'react-slick';
