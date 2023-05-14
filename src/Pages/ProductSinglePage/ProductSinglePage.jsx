@@ -8,7 +8,7 @@ import {
 	getSingleProductStatus,
 } from '../../Store/productSlice';
 import { STATUS } from '../../Utils/status';
-import Loader from '../../components/Loader/Loader';
+import Loader from '../../Components/Loader/Loader';
 import { formatPrice } from '../../Utils/helpers';
 import {
 	addToCart,
@@ -16,7 +16,7 @@ import {
 	setCartMessageOff,
 	setCartMessageOn,
 } from '../../Store/cartSlice';
-import CartMessage from '../../components/CartMessage/CartMessage';
+import CartMessage from '../../Components/CartMessage/CartMessage';
 
 const ProductSinglePage = () => {
 	const { id } = useParams();

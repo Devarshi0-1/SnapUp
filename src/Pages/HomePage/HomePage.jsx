@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
 import './HomePage.scss';
-import HeaderSlider from '../../components/Slider/HeaderSlider';
+import HeaderSlider from '../../Components/Slider/HeaderSlider';
 import { useSelector, useDispatch } from 'react-redux';
 import { getAllCategories } from '../../Store/categorySlice';
-import ProductList from '../../components/ProductList/ProductList';
+import ProductList from '../../Components/ProductList/ProductList';
 import {
 	fetchAsyncProducts,
 	getAllProducts,
 	getAllProductsStatus,
 } from '../../Store/productSlice';
-import Loader from '../../components/Loader/Loader';
+import Loader from '../../Components/Loader/Loader';
 import { STATUS } from '../../Utils/status';
 
 const HomePage = () => {

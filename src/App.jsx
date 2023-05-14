@@ -9,10 +9,10 @@ import {
 	Cart,
 	Search,
 } from './Pages/index';
-// components
-import Header from './components/Header/Header';
-import Sidebar from './components/Sidebar/Sidebar';
-import Footer from './components/Footer/Footer';
+// Components
+import Header from './Components/Header/Header';
+import Sidebar from './Components/Sidebar/Sidebar';
+import Footer from './Components/Footer/Footer';
 import store from './Store/store';
 import { Provider } from 'react-redux';
 

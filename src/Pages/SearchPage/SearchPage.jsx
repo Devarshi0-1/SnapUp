@@ -3,8 +3,8 @@ import './SearchPage.scss';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { STATUS } from '../../Utils/status';
-import Loader from '../../components/Loader/Loader';
-import ProductList from '../../components/ProductList/ProductList';
+import Loader from '../../Components/Loader/Loader';
+import ProductList from '../../Components/ProductList/ProductList';
 import {
 	fetchAsyncSearchProduct,
 	getSearchProducts,

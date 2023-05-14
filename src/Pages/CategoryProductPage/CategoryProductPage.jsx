@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './CategoryProductPage.scss';
-import ProductList from '../../components/ProductList/ProductList';
+import ProductList from '../../Components/ProductList/ProductList';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import {
@@ -8,7 +8,7 @@ import {
 	fetchAsyncProductsOfCategory,
 	getCategoryProductsStatus,
 } from '../../Store/categorySlice';
-import Loader from '../../components/Loader/Loader';
+import Loader from '../../Components/Loader/Loader';
 import { STATUS } from '../../Utils/status';
 
 const CategoryProductPage = () => {
